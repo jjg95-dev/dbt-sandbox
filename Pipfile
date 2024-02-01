@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dbt-core = "1.4.0"
+dbt-sqlite = "1.4.0"
+pytz = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
